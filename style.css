@@ -93,10 +93,12 @@ h3 {
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-name: example;
-  animation-duration: 10s ;
+  animation-duration: 7s;
 }
 
-.profile-img {animation-timing-function: ease-in-out;}
+.profile-img {
+  animation-timing-function: ease-in-out;
+}
 
 .top-icon {
   height: 30px;
@@ -183,7 +185,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0rem 5rem;
+  margin: 0rem 8rem;
 }
 #project-heading {
   font-size: 16px;
@@ -206,7 +208,82 @@ svg.icon-container {
 }
 
 .icon-title {
-  padding: 0.8rem 5px;
-  font-size: 15px;
+  padding: 0.3rem 0.4rem;
+  font-size: 20px;
   font-weight: 600;
+}
+.icon-titlenth {
+  padding: 0.3rem 0.4rem;
+  font-size: 20px;
+  font-weight: 600;
+}
+@media (width <= 1024px) {
+  .heading {
+    margin-top: 8rem;
+    height: 50vh;
+  }
+  .home-div {
+    height: 50vh;
+  }
+  .icons-pack {
+    padding: 0 0.5rem;
+    height: 40px;
+    width: 45px;
+  }
+  h3 {
+    font-size: 40px;
+  }
+  .home-div-child {
+    height: 55vh;
+  }
+  .portfolio-heading {
+    margin: 0rem;
+  }
+  .main-block {
+    height: 42vh;
+  }
+  #image-nthchild {
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  #image-container {
+    height: 270px;
+    width: 340px;
+    padding-right: 4rem;
+  }
+  #project-heading {
+    font-size: 24px;
+    padding: 1rem;
+    font-weight: 700;
+  }
+  #use-stack {
+    padding: 1rem 0;
+    font-size: 20px;
+  }
+  .icon-title {
+    padding: 0.3rem 5px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .icon-titlenth {
+    padding: 0.3rem 0.5rem;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .image-child {
+    height: 250px;
+    width: 280px;
+  }
+  .text-nthchild {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0rem 4rem;
+  }
+  .description-about {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    margin: 0.5rem 0rem;
+  }
 }
