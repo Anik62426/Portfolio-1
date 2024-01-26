@@ -27,6 +27,7 @@ nav{
 .home-heading { 
     padding-right: 1rem;
     font-weight: 600;
+    text-decoration: none;
     font-size: 20px;
     color: black;
 }
