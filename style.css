@@ -1,202 +1,212 @@
-
-*{
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
 }
-header{
-    padding-top: 1rem;
-    position: fixed;
-    height: 2rem;
-    width: 100%;
-    background-color: white;
+header {
+  padding-top: 1rem;
+  position: fixed;
+  height: 2rem;
+  width: 100%;
+  background-color: white;
 }
-.front-heading{
-    font-weight: 700;
-    font-size: 40px;
+.front-heading {
+  font-weight: 700;
+  font-size: 40px;
 }
-#main-para{
-    padding: 1rem 0;
-    color: gray;
+#main-para {
+  padding: 1rem 0;
+  color: gray;
 }
-nav{
-    float: right;
-    padding-right: 20px;
+nav {
+  float: right;
+  padding-right: 20px;
 }
-.home-heading { 
-    padding-right: 1rem;
-    font-weight: 600;
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
+.home-heading {
+  padding-right: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
 }
-#first-name{
-    font-weight: 600;
-    font-size: 20px;
-    color: black;
-    padding-left: 1rem;
-    
+#first-name {
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+  padding-left: 1rem;
 }
-.home-div{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+.home-div {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-.heading{
-    margin-top: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
+.heading {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
 }
 /* Tech Stack Section */
 .icons-main {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-h3{
-    font-size: 30px;
+h3 {
+  font-size: 30px;
 }
-.icons-pack{
-    padding: 0 0.5rem;
-    height: 30px;
-    width: 30px;
+.icons-pack {
+  padding: 0 0.5rem;
+  height: 30px;
+  width: 30px;
 }
-.icons{
+.icons {
   padding-left: 3rem;
 }
 
 /* end */
-.image{
-    height: 260px;
-    width: 260px;
+.image {
+  height: 260px;
+  width: 260px;
+}
+@keyframes example {
+  0% {
+    border-radius: 19% 81% 42% 58% / 50% 36% 64% 50%;
+  }
+  33% {
+    border-radius: 44% 56% 61% 39% / 46% 60% 40% 54%;
+  }
+  66% {
+    border-radius: 62% 38% 45% 55% / 60% 48% 52% 40%;
+  }
+  100% {
+    border-radius: 73% 27% 35% 65% / 60% 33% 67% 40%;
+  }
 }
 
-
-.profile-img{
-   object-fit: cover;
-   height: 100%;
-   width: 80%;
-   border-radius:  19% 81% 42% 58% / 50% 36% 64% 50% ; 
-   border: 3px solid black;
-   transition: border-radius 5000ms ease-in-out;
-   margin-left: 4rem; 
-}
-.profile-img:hover{
-    border-radius: 78% 22% 69% 31% / 58% 58% 42% 42% ; 
-    border: 3.5px solid black;
+.profile-img {
+  object-fit: cover;
+  height: 100%;
+  width: 80%;
+  border: 3px solid black;
+  margin-left: 4rem;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-name: example;
+  animation-duration: 10s ;
 }
 
-.top-icon{
-    height: 30px;
-    width: 30px;
-    margin: 1rem 0;
+.profile-img {animation-timing-function: ease-in-out;}
+
+.top-icon {
+  height: 30px;
+  width: 30px;
+  margin: 1rem 0;
 }
-.image-child{
-    height: 220px;
-    width: 220px;
+.image-child {
+  height: 220px;
+  width: 220px;
 }
-.profile-img-child{
-    border-radius: 10%;
-    height: 100%;
-    width: 100%; 
- }
- .front-heading-child{
-    color: rgb(72, 167, 251);
-    font-size: 16px;
-    margin: 0;
- }
- .main-para-child{
-    font-size: 24px;
-    font-weight: 600;
-    margin: 0;
-    margin-top:0.4rem ;
- } 
- .name-child{
-    padding-left: 3rem;
- }
- .description{
-    margin-top: 1rem;
- }
- 
- .description-about{
-    color: rgb(94, 92, 92);
-    font-size: 14px;
-    margin: 0.3rem;
- }
- .heading-child{
-    display: flex;
-    flex-direction: row;
-    border-radius: 20px;
-    padding: 4rem 2.5rem 4rem 2.5rem;;
+.profile-img-child {
+  border-radius: 10%;
+  height: 100%;
+  width: 100%;
 }
-.home-div-child{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.front-heading-child {
+  color: rgb(72, 167, 251);
+  font-size: 16px;
+  margin: 0;
+}
+.main-para-child {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 0.4rem;
+}
+.name-child {
+  padding-left: 3rem;
+}
+.description {
+  margin-top: 1rem;
 }
 
+.description-about {
+  color: rgb(94, 92, 92);
+  font-size: 14px;
+  margin: 0.3rem;
+}
+.heading-child {
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  padding: 4rem 2.5rem 4rem 2.5rem;
+}
+.home-div-child {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* Portfolio */
-.portfolio-heading{
-    display: flex;
-    justify-content:center;
-    margin-right: 10rem;
-    margin-bottom: 2rem;
+.portfolio-heading {
+  display: flex;
+  justify-content: center;
+  margin-right: 10rem;
+  margin-bottom: 2rem;
 }
-.main-block{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 70vh;
+.main-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
 }
-#portfolio-text{
-    color: rgb(55, 161, 255);
-    font-size: 16px;
+#portfolio-text {
+  color: rgb(55, 161, 255);
+  font-size: 16px;
 }
-#image-container{
-    height: 270px;
-    width: 370px;
+#image-container {
+  height: 270px;
+  width: 370px;
 }
-#image-nthchild{
-    height: 80%;
-    width: 80%;
-    border-radius: 0.5rem;
+#image-nthchild {
+  height: 80%;
+  width: 80%;
+  border-radius: 0.5rem;
 }
-.text-child{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.text-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.text-nthchild{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin:0rem 5rem;
+.text-nthchild {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0rem 5rem;
 }
-#project-heading{
-    font-size: 16px;
-    padding: 1rem;
-    font-weight: 700;
+#project-heading {
+  font-size: 16px;
+  padding: 1rem;
+  font-weight: 700;
 }
-#use-stack{
-    padding: 2rem 0;
-    font-size: 15px;
+#use-stack {
+  padding: 2rem 0;
+  font-size: 15px;
 }
-.code-livedemo{
-    display:flex ;
+.code-livedemo {
+  display: flex;
 }
-svg.icon-container{
-    padding-right: 1.5rem;
-    width: 30px;
-    height: 30px;
-    padding-top: 4px;
-    color: black;
+svg.icon-container {
+  padding-right: 1.5rem;
+  width: 30px;
+  height: 30px;
+  padding-top: 4px;
+  color: black;
 }
 
-.icon-title{
-    padding: 0.8rem 5px;
-    font-size: 15px;
-    font-weight: 600;
+.icon-title {
+  padding: 0.8rem 5px;
+  font-size: 15px;
+  font-weight: 600;
 }
