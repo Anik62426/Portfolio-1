@@ -394,7 +394,7 @@ svg.icon-container {
   }
 }
 
-@media (width <= 376px) {
+@media (width <= 413px) {
   .home-div-child {
       height: 100vh;
       margin-top: 6rem;
@@ -417,7 +417,7 @@ svg.icon-container {
   align-items: center;
 }
 .description-about {
-    font-size: 14px;
+    font-size: 13px;
 }
 .profile-img-child {
   border-radius: 10%;
