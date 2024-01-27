@@ -406,7 +406,7 @@ svg.icon-container {
 .heading-child {
   display: flex;
   flex-direction: row;
-  height: 25vh;
+  height: 20vh;
   border-radius: 20px;
   padding: 5rem 2.5rem 5rem 2.5rem;
 }
