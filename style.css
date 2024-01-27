@@ -407,6 +407,8 @@ svg.icon-container {
   display: flex;
   flex-direction: row;
   height: 25vh;
+  border-radius: 20px;
+  padding: 5rem 2.5rem 5rem 2.5rem;
 }
 .image-child {
   height: 250px;
