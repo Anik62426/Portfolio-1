@@ -106,8 +106,8 @@ h3 {
   margin: 1rem 0;
 }
 .image-child {
-  height: 220px;
-  width: 220px;
+  height: 210px;
+  width: 260px;
 }
 .profile-img-child {
   border-radius: 10%;
@@ -218,7 +218,7 @@ svg.icon-container {
 }
 
 .icon-title {
-  padding: 0.3rem 0.4rem;
+  padding: 0.5rem 0.4rem;
   font-size: 20px;
   font-weight: 600;
 }
