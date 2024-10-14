@@ -1,265 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <header>
-      <span id="first-name">Aniket.dev</span>
-      <nav>
-        <a class="home-heading" href="#">Home</a>
-        <a class="home-heading" href="#section-2">About</a>
-        <a class="home-heading" href="#section-3">Project</a>
-        <a class="home-heading" href="#section-4">Contact</a>
-      </nav>
-    </header>
-    <main>
-      <div class="home-div">
-        <div class="heading">
-          <div class="name">
-            <h1 class="front-heading">Front-end React<br />Developer <span style="padding:1rem;"> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 36 36"><path fill="#B78B60" d="M4.861 9.147c.94-.657 2.357-.531 3.201.166l-.968-1.407c-.779-1.111-.5-2.313.612-3.093c1.112-.777 4.263 1.312 4.263 1.312c-.786-1.122-.639-2.544.483-3.331a2.483 2.483 0 0 1 3.456.611l10.42 14.72L25 31l-11.083-4.042L4.25 12.625a2.495 2.495 0 0 1 .611-3.478"></path><path fill="#D4AB88" d="M2.695 17.336s-1.132-1.65.519-2.781c1.649-1.131 2.78.518 2.78.518l5.251 7.658c.181-.302.379-.6.6-.894L4.557 11.21s-1.131-1.649.519-2.78c1.649-1.131 2.78.518 2.78.518l6.855 9.997c.255-.208.516-.417.785-.622L7.549 6.732s-1.131-1.649.519-2.78c1.649-1.131 2.78.518 2.78.518l7.947 11.589c.292-.179.581-.334.871-.498L12.238 4.729s-1.131-1.649.518-2.78c1.649-1.131 2.78.518 2.78.518l7.854 11.454l1.194 1.742c-4.948 3.394-5.419 9.779-2.592 13.902c.565.825 1.39.26 1.39.26c-3.393-4.949-2.357-10.51 2.592-13.903L24.515 8.62s-.545-1.924 1.378-2.47c1.924-.545 2.47 1.379 2.47 1.379l1.685 5.004c.668 1.984 1.379 3.961 2.32 5.831c2.657 5.28 1.07 11.842-3.94 15.279c-5.465 3.747-12.936 2.354-16.684-3.11z"></path><g fill="#5DADEC"><path d="M12 32.042C8 32.042 3.958 28 3.958 24c0-.553-.405-1-.958-1s-1.042.447-1.042 1C1.958 30 6 34.042 12 34.042c.553 0 1-.489 1-1.042s-.447-.958-1-.958"></path><path d="M7 34c-3 0-5-2-5-5a1 1 0 1 0-2 0c0 4 3 7 7 7a1 1 0 1 0 0-2M24 2a1 1 0 0 0 0 2c4 0 8 3.589 8 8a1 1 0 0 0 2 0c0-5.514-4-10-10-10"></path><path d="M29 .042c-.552 0-1 .406-1 .958s.448 1.042 1 1.042c3 0 4.958 2.225 4.958 4.958c0 .552.489 1 1.042 1s.958-.448.958-1C35.958 3.163 33 .042 29 .042"></path></g></svg></span></h1>
-            <p id="main-para">
-              Hi, I'm Aniket Kumar. A passionate Front-end React<br />
-              Developer <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32"><g fill="none"><path fill="#D3D3D3" d="M2.383 29.495c-.51-.51-.51-1.33 0-1.84l8.96-8.96l1.84 1.84l-8.96 8.96c-.51.51-1.33.51-1.84 0"></path><path fill="#CA0B4A" d="m20.033 19.174l4.603-4.603L23 8.5l-5.796-1.36l-4.603 4.602L14 17.5z"></path><path fill="#F8312F" d="m17.183 7.125l7.47 7.46a2.607 2.607 0 0 0 3.69 0l1.11-1.11c.42-.42.42-1.1 0-1.52l-9.64-9.64c-.42-.42-1.1-.42-1.52 0l-1.11 1.11a2.62 2.62 0 0 0 0 3.7m-11.1 7.44l11.12 11.12c.52.52 1.37.52 1.89 0l.91-.91a3.983 3.983 0 0 0 0-5.64l-7.37-7.37a3.983 3.983 0 0 0-5.64 0l-.91.91a1.34 1.34 0 0 0 0 1.89"></path></g></svg>
-            </p>
-            <a href="https://www.linkedin.com/in/aniket-kumar-4622772a7/"
-              target="_blank"
-            >
-              <box-icon  class="top-icon" type="logo" name="linkedin-square"></box-icon>
-            </a>
-            <a  href="https://github.com/Anik62426" target="_blank">
-              <box-icon class="top-icon" name="github" type="logo"></box-icon>
-            </a>
-          </div>
-          <div class="image">
-            <img
-              src="./Profile.jpeg"
-              alt="Kamal"
-              class="profile-img"
-            />
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header>
+    <span id="first-name">Aniket.dev</span>
+    <nav>
+      <a class="home-heading" href="#">Home</a>
+      <a class="home-heading" href="#About-Me">About</a>
+      <a class="home-heading" href="#portfolio-main">Project</a>
+      <a class="home-heading" href="#Contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <div class="home-div">
+      <div class="heading">
+        <div class="name">
+          <h1 class="front-heading">Front-end React<br />Developer <span style="padding:1rem;"> <svg
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 36 36">
+                <path fill="#B78B60"
+                  d="M4.861 9.147c.94-.657 2.357-.531 3.201.166l-.968-1.407c-.779-1.111-.5-2.313.612-3.093c1.112-.777 4.263 1.312 4.263 1.312c-.786-1.122-.639-2.544.483-3.331a2.483 2.483 0 0 1 3.456.611l10.42 14.72L25 31l-11.083-4.042L4.25 12.625a2.495 2.495 0 0 1 .611-3.478">
+                </path>
+                <path fill="#D4AB88"
+                  d="M2.695 17.336s-1.132-1.65.519-2.781c1.649-1.131 2.78.518 2.78.518l5.251 7.658c.181-.302.379-.6.6-.894L4.557 11.21s-1.131-1.649.519-2.78c1.649-1.131 2.78.518 2.78.518l6.855 9.997c.255-.208.516-.417.785-.622L7.549 6.732s-1.131-1.649.519-2.78c1.649-1.131 2.78.518 2.78.518l7.947 11.589c.292-.179.581-.334.871-.498L12.238 4.729s-1.131-1.649.518-2.78c1.649-1.131 2.78.518 2.78.518l7.854 11.454l1.194 1.742c-4.948 3.394-5.419 9.779-2.592 13.902c.565.825 1.39.26 1.39.26c-3.393-4.949-2.357-10.51 2.592-13.903L24.515 8.62s-.545-1.924 1.378-2.47c1.924-.545 2.47 1.379 2.47 1.379l1.685 5.004c.668 1.984 1.379 3.961 2.32 5.831c2.657 5.28 1.07 11.842-3.94 15.279c-5.465 3.747-12.936 2.354-16.684-3.11z">
+                </path>
+                <g fill="#5DADEC">
+                  <path
+                    d="M12 32.042C8 32.042 3.958 28 3.958 24c0-.553-.405-1-.958-1s-1.042.447-1.042 1C1.958 30 6 34.042 12 34.042c.553 0 1-.489 1-1.042s-.447-.958-1-.958">
+                  </path>
+                  <path
+                    d="M7 34c-3 0-5-2-5-5a1 1 0 1 0-2 0c0 4 3 7 7 7a1 1 0 1 0 0-2M24 2a1 1 0 0 0 0 2c4 0 8 3.589 8 8a1 1 0 0 0 2 0c0-5.514-4-10-10-10">
+                  </path>
+                  <path
+                    d="M29 .042c-.552 0-1 .406-1 .958s.448 1.042 1 1.042c3 0 4.958 2.225 4.958 4.958c0 .552.489 1 1.042 1s.958-.448.958-1C35.958 3.163 33 .042 29 .042">
+                  </path>
+                </g>
+              </svg></span></h1>
+          <p id="main-para">
+            Hi, I'm Aniket Kumar. A passionate Front-end React<br />
+            Developer <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32">
+              <g fill="none">
+                <path fill="#D3D3D3"
+                  d="M2.383 29.495c-.51-.51-.51-1.33 0-1.84l8.96-8.96l1.84 1.84l-8.96 8.96c-.51.51-1.33.51-1.84 0">
+                </path>
+                <path fill="#CA0B4A" d="m20.033 19.174l4.603-4.603L23 8.5l-5.796-1.36l-4.603 4.602L14 17.5z"></path>
+                <path fill="#F8312F"
+                  d="m17.183 7.125l7.47 7.46a2.607 2.607 0 0 0 3.69 0l1.11-1.11c.42-.42.42-1.1 0-1.52l-9.64-9.64c-.42-.42-1.1-.42-1.52 0l-1.11 1.11a2.62 2.62 0 0 0 0 3.7m-11.1 7.44l11.12 11.12c.52.52 1.37.52 1.89 0l.91-.91a3.983 3.983 0 0 0 0-5.64l-7.37-7.37a3.983 3.983 0 0 0-5.64 0l-.91.91a1.34 1.34 0 0 0 0 1.89">
+                </path>
+              </g>
+            </svg>
+          </p>
+          <a href="https://www.linkedin.com/in/aniket-kumar-4622772a7/" target="_blank">
+            <box-icon class="top-icon" type="logo" name="linkedin-square"></box-icon>
+          </a>
+          <a href="https://github.com/Anik62426" target="_blank">
+            <box-icon class="top-icon" name="github" type="logo"></box-icon>
+          </a>
         </div>
-        <div class="icons-main">
-          <h3 >Tech Stack &nbsp I</h3>
-          <div class="icons">
-             <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="1em"
-            height="1em"
-            viewBox="0 0 32 32"
-            class="icons-pack"
-          >
+        <div class="image">
+          <img src="./Profile.jpeg" alt="Kamal" class="profile-img" />
+        </div>
+      </div>
+      <div class="icons-main">
+        <h3>Tech Stack &nbsp I</h3>
+        <div class="icons">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32" class="icons-pack">
             <path fill="#f5de19" d="M2 2h28v28H2z"></path>
             <path
-              d="M20.809 23.875a2.866 2.866 0 0 0 2.6 1.6c1.09 0 1.787-.545 1.787-1.3c0-.9-.716-1.222-1.916-1.747l-.658-.282c-1.9-.809-3.16-1.822-3.16-3.964c0-1.973 1.5-3.476 3.853-3.476a3.889 3.889 0 0 1 3.742 2.107L25 18.128A1.789 1.789 0 0 0 23.311 17a1.145 1.145 0 0 0-1.259 1.128c0 .789.489 1.109 1.618 1.6l.658.282c2.236.959 3.5 1.936 3.5 4.133c0 2.369-1.861 3.667-4.36 3.667a5.055 5.055 0 0 1-4.795-2.691Zm-9.295.228c.413.733.789 1.353 1.693 1.353c.864 0 1.41-.338 1.41-1.653v-8.947h2.631v8.982c0 2.724-1.6 3.964-3.929 3.964a4.085 4.085 0 0 1-3.947-2.4Z"
-            ></path>
+              d="M20.809 23.875a2.866 2.866 0 0 0 2.6 1.6c1.09 0 1.787-.545 1.787-1.3c0-.9-.716-1.222-1.916-1.747l-.658-.282c-1.9-.809-3.16-1.822-3.16-3.964c0-1.973 1.5-3.476 3.853-3.476a3.889 3.889 0 0 1 3.742 2.107L25 18.128A1.789 1.789 0 0 0 23.311 17a1.145 1.145 0 0 0-1.259 1.128c0 .789.489 1.109 1.618 1.6l.658.282c2.236.959 3.5 1.936 3.5 4.133c0 2.369-1.861 3.667-4.36 3.667a5.055 5.055 0 0 1-4.795-2.691Zm-9.295.228c.413.733.789 1.353 1.693 1.353c.864 0 1.41-.338 1.41-1.653v-8.947h2.631v8.982c0 2.724-1.6 3.964-3.929 3.964a4.085 4.085 0 0 1-3.947-2.4Z">
+            </path>
           </svg>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="1em"
-            height="1em"
-            viewBox="0 0 32 32"
-            class="icons-pack"
-          >
-            <path
-              fill="#1572b6"
-              d="M5.902 27.201L3.656 2h24.688l-2.249 25.197L15.985 30z"
-            ></path>
-            <path
-              fill="#33a9dc"
-              d="m16 27.858l8.17-2.265l1.922-21.532H16z"
-            ></path>
-            <path
-              fill="#fff"
-              d="M16 13.191h4.09l.282-3.165H16V6.935h7.75l-.074.829l-.759 8.518H16z"
-            ></path>
-            <path
-              fill="#ebebeb"
-              d="m16.019 21.218l-.014.004l-3.442-.93l-.22-2.465H9.24l.433 4.853l6.331 1.758l.015-.004z"
-            ></path>
-            <path
-              fill="#fff"
-              d="m19.827 16.151l-.372 4.139l-3.447.93v3.216l6.336-1.756l.047-.522l.537-6.007z"
-            ></path>
-            <path
-              fill="#ebebeb"
-              d="M16.011 6.935v3.091H8.545l-.062-.695l-.141-1.567l-.074-.829zM16 13.191v3.091h-3.399l-.062-.695l-.14-1.567l-.074-.829z"
-            ></path>
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32" class="icons-pack">
+            <path fill="#1572b6" d="M5.902 27.201L3.656 2h24.688l-2.249 25.197L15.985 30z"></path>
+            <path fill="#33a9dc" d="m16 27.858l8.17-2.265l1.922-21.532H16z"></path>
+            <path fill="#fff" d="M16 13.191h4.09l.282-3.165H16V6.935h7.75l-.074.829l-.759 8.518H16z"></path>
+            <path fill="#ebebeb"
+              d="m16.019 21.218l-.014.004l-3.442-.93l-.22-2.465H9.24l.433 4.853l6.331 1.758l.015-.004z"></path>
+            <path fill="#fff" d="m19.827 16.151l-.372 4.139l-3.447.93v3.216l6.336-1.756l.047-.522l.537-6.007z"></path>
+            <path fill="#ebebeb"
+              d="M16.011 6.935v3.091H8.545l-.062-.695l-.141-1.567l-.074-.829zM16 13.191v3.091h-3.399l-.062-.695l-.14-1.567l-.074-.829z">
+            </path>
           </svg>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="1em"
-            height="1em"
-            viewBox="0 0 32 32"
-            class="icons-pack"
-          >
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32" class="icons-pack">
             <circle cx="16" cy="15.974" r="2.5" fill="#00d8ff"></circle>
-            <path
-              fill="#00d8ff"
-              d="M16 21.706a28.385 28.385 0 0 1-8.88-1.2a11.3 11.3 0 0 1-3.657-1.958A3.543 3.543 0 0 1 2 15.974c0-1.653 1.816-3.273 4.858-4.333A28.755 28.755 0 0 1 16 10.293a28.674 28.674 0 0 1 9.022 1.324a11.376 11.376 0 0 1 3.538 1.866A3.391 3.391 0 0 1 30 15.974c0 1.718-2.03 3.459-5.3 4.541a28.8 28.8 0 0 1-8.7 1.191m0-10.217a27.948 27.948 0 0 0-8.749 1.282c-2.8.977-4.055 2.313-4.055 3.2c0 .928 1.349 2.387 4.311 3.4A27.21 27.21 0 0 0 16 20.51a27.6 27.6 0 0 0 8.325-1.13C27.4 18.361 28.8 16.9 28.8 15.974a2.327 2.327 0 0 0-1.01-1.573a10.194 10.194 0 0 0-3.161-1.654A27.462 27.462 0 0 0 16 11.489"
-            ></path>
-            <path
-              fill="#00d8ff"
-              d="M10.32 28.443a2.639 2.639 0 0 1-1.336-.328c-1.432-.826-1.928-3.208-1.327-6.373a28.755 28.755 0 0 1 3.4-8.593a28.676 28.676 0 0 1 5.653-7.154a11.376 11.376 0 0 1 3.384-2.133a3.391 3.391 0 0 1 2.878 0c1.489.858 1.982 3.486 1.287 6.859a28.806 28.806 0 0 1-3.316 8.133a28.385 28.385 0 0 1-5.476 7.093a11.3 11.3 0 0 1-3.523 2.189a4.926 4.926 0 0 1-1.624.307m1.773-14.7a27.948 27.948 0 0 0-3.26 8.219c-.553 2.915-.022 4.668.75 5.114c.8.463 2.742.024 5.1-2.036a27.209 27.209 0 0 0 5.227-6.79a27.6 27.6 0 0 0 3.181-7.776c.654-3.175.089-5.119-.713-5.581a2.327 2.327 0 0 0-1.868.089A10.194 10.194 0 0 0 17.5 6.9a27.464 27.464 0 0 0-5.4 6.849Z"
-            ></path>
-            <path
-              fill="#00d8ff"
-              d="M21.677 28.456c-1.355 0-3.076-.82-4.868-2.361a28.756 28.756 0 0 1-5.747-7.237a28.676 28.676 0 0 1-3.374-8.471a11.376 11.376 0 0 1-.158-4A3.391 3.391 0 0 1 8.964 3.9c1.487-.861 4.01.024 6.585 2.31a28.8 28.8 0 0 1 5.39 6.934a28.384 28.384 0 0 1 3.41 8.287a11.3 11.3 0 0 1 .137 4.146a3.543 3.543 0 0 1-1.494 2.555a2.59 2.59 0 0 1-1.315.324m-9.58-10.2a27.949 27.949 0 0 0 5.492 6.929c2.249 1.935 4.033 2.351 4.8 1.9c.8-.465 1.39-2.363.782-5.434A27.212 27.212 0 0 0 19.9 13.74a27.6 27.6 0 0 0-5.145-6.64c-2.424-2.152-4.39-2.633-5.191-2.169a2.327 2.327 0 0 0-.855 1.662a10.194 10.194 0 0 0 .153 3.565a27.465 27.465 0 0 0 3.236 8.1Z"
-            ></path>
+            <path fill="#00d8ff"
+              d="M16 21.706a28.385 28.385 0 0 1-8.88-1.2a11.3 11.3 0 0 1-3.657-1.958A3.543 3.543 0 0 1 2 15.974c0-1.653 1.816-3.273 4.858-4.333A28.755 28.755 0 0 1 16 10.293a28.674 28.674 0 0 1 9.022 1.324a11.376 11.376 0 0 1 3.538 1.866A3.391 3.391 0 0 1 30 15.974c0 1.718-2.03 3.459-5.3 4.541a28.8 28.8 0 0 1-8.7 1.191m0-10.217a27.948 27.948 0 0 0-8.749 1.282c-2.8.977-4.055 2.313-4.055 3.2c0 .928 1.349 2.387 4.311 3.4A27.21 27.21 0 0 0 16 20.51a27.6 27.6 0 0 0 8.325-1.13C27.4 18.361 28.8 16.9 28.8 15.974a2.327 2.327 0 0 0-1.01-1.573a10.194 10.194 0 0 0-3.161-1.654A27.462 27.462 0 0 0 16 11.489">
+            </path>
+            <path fill="#00d8ff"
+              d="M10.32 28.443a2.639 2.639 0 0 1-1.336-.328c-1.432-.826-1.928-3.208-1.327-6.373a28.755 28.755 0 0 1 3.4-8.593a28.676 28.676 0 0 1 5.653-7.154a11.376 11.376 0 0 1 3.384-2.133a3.391 3.391 0 0 1 2.878 0c1.489.858 1.982 3.486 1.287 6.859a28.806 28.806 0 0 1-3.316 8.133a28.385 28.385 0 0 1-5.476 7.093a11.3 11.3 0 0 1-3.523 2.189a4.926 4.926 0 0 1-1.624.307m1.773-14.7a27.948 27.948 0 0 0-3.26 8.219c-.553 2.915-.022 4.668.75 5.114c.8.463 2.742.024 5.1-2.036a27.209 27.209 0 0 0 5.227-6.79a27.6 27.6 0 0 0 3.181-7.776c.654-3.175.089-5.119-.713-5.581a2.327 2.327 0 0 0-1.868.089A10.194 10.194 0 0 0 17.5 6.9a27.464 27.464 0 0 0-5.4 6.849Z">
+            </path>
+            <path fill="#00d8ff"
+              d="M21.677 28.456c-1.355 0-3.076-.82-4.868-2.361a28.756 28.756 0 0 1-5.747-7.237a28.676 28.676 0 0 1-3.374-8.471a11.376 11.376 0 0 1-.158-4A3.391 3.391 0 0 1 8.964 3.9c1.487-.861 4.01.024 6.585 2.31a28.8 28.8 0 0 1 5.39 6.934a28.384 28.384 0 0 1 3.41 8.287a11.3 11.3 0 0 1 .137 4.146a3.543 3.543 0 0 1-1.494 2.555a2.59 2.59 0 0 1-1.315.324m-9.58-10.2a27.949 27.949 0 0 0 5.492 6.929c2.249 1.935 4.033 2.351 4.8 1.9c.8-.465 1.39-2.363.782-5.434A27.212 27.212 0 0 0 19.9 13.74a27.6 27.6 0 0 0-5.145-6.64c-2.424-2.152-4.39-2.633-5.191-2.169a2.327 2.327 0 0 0-.855 1.662a10.194 10.194 0 0 0 .153 3.565a27.465 27.465 0 0 0 3.236 8.1Z">
+            </path>
           </svg>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="1em"
-            height="1em"
-            viewBox="0 0 32 32"
-            class="icons-pack"
-          >
-            <path
-              fill="#e44f26"
-              d="M5.902 27.201L3.655 2h24.69l-2.25 25.197L15.985 30z"
-            ></path>
-            <path
-              fill="#f1662a"
-              d="m16 27.858l8.17-2.265l1.922-21.532H16z"
-            ></path>
-            <path
-              fill="#ebebeb"
-              d="M16 13.407h-4.09l-.282-3.165H16V7.151H8.25l.074.83l.759 8.517H16zm0 8.027l-.014.004l-3.442-.929l-.22-2.465H9.221l.433 4.852l6.332 1.758l.014-.004z"
-            ></path>
-            <path
-              fill="#fff"
-              d="M15.989 13.407v3.091h3.806l-.358 4.009l-3.448.93v3.216l6.337-1.757l.046-.522l.726-8.137l.076-.83h-.833zm0-6.256v3.091h7.466l.062-.694l.141-1.567l.074-.83z"
-            ></path>
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32" class="icons-pack">
+            <path fill="#e44f26" d="M5.902 27.201L3.655 2h24.69l-2.25 25.197L15.985 30z"></path>
+            <path fill="#f1662a" d="m16 27.858l8.17-2.265l1.922-21.532H16z"></path>
+            <path fill="#ebebeb"
+              d="M16 13.407h-4.09l-.282-3.165H16V7.151H8.25l.074.83l.759 8.517H16zm0 8.027l-.014.004l-3.442-.929l-.22-2.465H9.221l.433 4.852l6.332 1.758l.014-.004z">
+            </path>
+            <path fill="#fff"
+              d="M15.989 13.407v3.091h3.806l-.358 4.009l-3.448.93v3.216l6.337-1.757l.046-.522l.726-8.137l.076-.83h-.833zm0-6.256v3.091h7.466l.062-.694l.141-1.567l.074-.83z">
+            </path>
           </svg>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="1em"
-            height="1em"
-            viewBox="0 0 32 32"
-            class="icons-pack"
-          >
-            <path
-              fill="#44a8b3"
-              d="M9 13.7q1.4-5.6 7-5.6c5.6 0 6.3 4.2 9.1 4.9q2.8.7 4.9-2.1q-1.4 5.6-7 5.6c-5.6 0-6.3-4.2-9.1-4.9q-2.8-.7-4.9 2.1m-7 8.4q1.4-5.6 7-5.6c5.6 0 6.3 4.2 9.1 4.9q2.8.7 4.9-2.1q-1.4 5.6-7 5.6c-5.6 0-6.3-4.2-9.1-4.9q-2.8-.7-4.9 2.1"
-            ></path>
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32" class="icons-pack">
+            <path fill="#44a8b3"
+              d="M9 13.7q1.4-5.6 7-5.6c5.6 0 6.3 4.2 9.1 4.9q2.8.7 4.9-2.1q-1.4 5.6-7 5.6c-5.6 0-6.3-4.2-9.1-4.9q-2.8-.7-4.9 2.1m-7 8.4q1.4-5.6 7-5.6c5.6 0 6.3 4.2 9.1 4.9q2.8.7 4.9-2.1q-1.4 5.6-7 5.6c-5.6 0-6.3-4.2-9.1-4.9q-2.8-.7-4.9 2.1">
+            </path>
           </svg>
-          </div>
         </div>
       </div>
-      
-      <div id="section-2">
-        <div class="home-div-child">
-          <div class="heading-child">
-            <div class="image-child">
-              <img
-                src="./DALL·E 2024-01-26 02.04.05.png"
-                alt="Kamal"
-                class="profile-img-child"
-              />
-            </div>
-            <div class="name-child">
-              <h1  class="front-heading-child">ABOUT ME</h1>
-              <p class="main-para-child"> A dedicated Front-end Developer </p>
-              <div class="description">
-               <p class="description-about">As a Front-End Developer, I possess an impressive</p>
-               <p class="description-about">arsenal of skills in HTML, CSS, Tailwind-CSS, JavaScript,</p>
-               <p class="description-about">React.js, Express.js and MongoDB, SQL. </p>
-               <p class="description-about">I excel in designing and maintaing responsive websites </p>
-               <p class="description-about"> that offer smooth user experience. My experience lies </p>
-               <p class="description-about">in crafting dynamic, engaging interfaces through writing  </p>
-               <p class="description-about"> clean and optimized code and utilizing cutting-edge </p>
-               <p class="description-about"> development tools and techniques. </p>
-               <!-- <p class="description-about"> thrives in collaborating with cross-functional teams </p> -->
-               <!-- <p class="description-about">to produce outstanding web applications. </p> -->
-              </div>
-               
+    </div>
+
+    <div id="About-Me">
+      <div class="home-div-child">
+        <div class="heading-child">
+          <div class="image-child">
+            <img src="./DALL·E.png" alt="Kamal" class="profile-img-child" />
+          </div>
+          <div class="name-child">
+            <h1 class="front-heading-child">ABOUT ME</h1>
+            <p class="main-para-child"> A dedicated Front-end Developer </p>
+            <div class="description">
+              <p>As a Front-End Developer, I possess an impressive</p>
+              <p>arsenal of skills in HTML, CSS, Tailwind-CSS, JavaScript,</p>
+              <p>React.js, Express.js, Prisma, MongoDB, SQL and Cloudflare. </p>
+              <p>I excel in designing and maintaing responsive websites </p>
+              <p> that offer smooth user experience. My experience lies </p>
+              <p>in crafting dynamic, engaging interfaces through writing </p>
+              <p> development tools and techniques. </p>
+              <p> clean and optimized code and utilizing cutting-edge </p>
             </div>
           </div>
         </div>
       </div>
-      <div id="section-3">
+    </div>
+
+
+    <section id="portfolio-main">
       <div class="portfolio-heading">
-        <h2><span id="portfolio-text">PORTFOLIO </span><br>Each Project is a unique piece of development 
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 36 36"><path fill="#78B159" d="M26.093 4.612c-.498.498-.629.839-.728 1.029c-.66 1.266-1.455 1.676-2.78.351c-.13-.13-4.087-4.267-4.741-5.017c-.427-.49-1.081-.64-1.584-.262c-.38.286-4.035 3.273-5.035 4.507c-.774.955-.8 2.134-.079 2.856c.326.326.727.449 1.151.578c.552.169 1.763.068 2.47.775c1.133 1.133.54 2.924-.917 4.421c-1.497 1.457-3.288 2.05-4.421.917c-.708-.708-.606-1.918-.775-2.47c-.129-.424-.252-.824-.578-1.151c-.721-.721-1.9-.694-2.856.079c-1.235 1-4.221 4.655-4.507 5.035c-.379.503-.228 1.156.262 1.584c.75.654 4.887 4.611 5.017 4.741c1.324 1.324.915 2.12-.351 2.78c-.19.099-.53.229-1.029.728a3.744 3.744 0 0 0 5.295 5.295c.498-.498.629-.839.728-1.029c.66-1.266 1.455-1.676 2.78-.351c.13.13 4.087 4.267 4.741 5.017c.427.49 1.081.64 1.584.262c.38-.286 4.035-3.273 5.035-4.507c.774-.955.8-2.134.079-2.856c-.326-.326-.727-.449-1.151-.578c-.552-.169-1.763-.068-2.47-.775c-1.133-1.133-.54-2.924.917-4.421c1.497-1.457 3.288-2.05 4.421-.917c.708.708.606 1.918.775 2.47c.129.424.252.824.578 1.151c.721.721 1.9.694 2.856-.079c1.235-1 4.221-4.655 4.507-5.035c.379-.503.228-1.156-.262-1.584c-.75-.654-4.887-4.611-5.017-4.741c-1.324-1.324-.915-2.12.351-2.78c.19-.099.53-.229 1.029-.728a3.744 3.744 0 0 0-5.295-5.295"/>
+        <h2><span id="portfolio-text">PORTFOLIO </span><br>Each Project is a unique piece of development
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 36 36">
+            <path fill="#78B159"
+              d="M26.093 4.612c-.498.498-.629.839-.728 1.029c-.66 1.266-1.455 1.676-2.78.351c-.13-.13-4.087-4.267-4.741-5.017c-.427-.49-1.081-.64-1.584-.262c-.38.286-4.035 3.273-5.035 4.507c-.774.955-.8 2.134-.079 2.856c.326.326.727.449 1.151.578c.552.169 1.763.068 2.47.775c1.133 1.133.54 2.924-.917 4.421c-1.497 1.457-3.288 2.05-4.421.917c-.708-.708-.606-1.918-.775-2.47c-.129-.424-.252-.824-.578-1.151c-.721-.721-1.9-.694-2.856.079c-1.235 1-4.221 4.655-4.507 5.035c-.379.503-.228 1.156.262 1.584c.75.654 4.887 4.611 5.017 4.741c1.324 1.324.915 2.12-.351 2.78c-.19.099-.53.229-1.029.728a3.744 3.744 0 0 0 5.295 5.295c.498-.498.629-.839.728-1.029c.66-1.266 1.455-1.676 2.78-.351c.13.13 4.087 4.267 4.741 5.017c.427.49 1.081.64 1.584.262c.38-.286 4.035-3.273 5.035-4.507c.774-.955.8-2.134.079-2.856c-.326-.326-.727-.449-1.151-.578c-.552-.169-1.763-.068-2.47-.775c-1.133-1.133-.54-2.924.917-4.421c1.497-1.457 3.288-2.05 4.421-.917c.708.708.606 1.918.775 2.47c.129.424.252.824.578 1.151c.721.721 1.9.694 2.856-.079c1.235-1 4.221-4.655 4.507-5.035c.379-.503.228-1.156-.262-1.584c-.75-.654-4.887-4.611-5.017-4.741c-1.324-1.324-.915-2.12.351-2.78c.19-.099.53-.229 1.029-.728a3.744 3.744 0 0 0-5.295-5.295" />
           </svg>
-      </h2> 
+        </h2>
       </div>
-        <div class="main-block">
-          <div id="image-container">
-            <img
-              src="./Ecommerce.png"
-              alt="Kamal"
-              id="image-nthchild"
-            />
-          </div>
-        <div class="text-child">
-          <h2 id="project-heading">E-commerce Web Application</h2>
-          <p>This Project Contain A Online Shopping<hr> </p>
-          <p>Platform That Allows Users To Buy<hr></p>
-          <p>Products for personal or business use.<hr></p>
-          <p>The Website Provides An Interface<hr></p>
-          <p>For Searching,Comparing And <hr></p>
-          <p>Buying Product at Best Price <hr></p>
-          <h4 id="use-stack"> HTML, Tailwind CSS, React.js, Express.js, MongoDB</h4>
-          <div class="code-livedemo">
-              <a href="https://github.com/Anik62426/E-Commerce-Backend-Frontend" target="_blank" class="icon-title" >Code</a>
-                <a  href=" https://github.com/Anik62426/E-Commerce-Backend-Frontend" target="_blank" target="_blank"> 
-                <svg class="icon-container" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 128 128"><g fill="#181616"><path fill-rule="evenodd" d="M64 5.103c-33.347 0-60.388 27.035-60.388 60.388c0 26.682 17.303 49.317 41.297 57.303c3.017.56 4.125-1.31 4.125-2.905c0-1.44-.056-6.197-.082-11.243c-16.8 3.653-20.345-7.125-20.345-7.125c-2.747-6.98-6.705-8.836-6.705-8.836c-5.48-3.748.413-3.67.413-3.67c6.063.425 9.257 6.223 9.257 6.223c5.386 9.23 14.127 6.562 17.573 5.02c.542-3.903 2.107-6.568 3.834-8.076c-13.413-1.525-27.514-6.704-27.514-29.843c0-6.593 2.36-11.98 6.223-16.21c-.628-1.52-2.695-7.662.584-15.98c0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033c11.526-7.813 16.59-6.19 16.59-6.19c3.287 8.317 1.22 14.46.593 15.98c3.872 4.23 6.215 9.617 6.215 16.21c0 23.194-14.127 28.3-27.574 29.796c2.167 1.874 4.097 5.55 4.097 11.183c0 8.08-.07 14.583-.07 16.572c0 1.607 1.088 3.49 4.148 2.897c23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z" clip-rule="evenodd"/><path d="M26.484 91.806c-.133.3-.605.39-1.035.185c-.44-.196-.685-.605-.543-.906c.13-.31.603-.395 1.04-.188c.44.197.69.61.537.91zm2.446 2.729c-.287.267-.85.143-1.232-.28c-.396-.42-.47-.983-.177-1.254c.298-.266.844-.14 1.24.28c.394.426.472.984.17 1.255zm2.382 3.477c-.37.258-.976.017-1.35-.52c-.37-.538-.37-1.183.01-1.44c.373-.258.97-.025 1.35.507c.368.545.368 1.19-.01 1.452zm3.261 3.361c-.33.365-1.036.267-1.552-.23c-.527-.487-.674-1.18-.343-1.544c.336-.366 1.045-.264 1.564.23c.527.486.686 1.18.333 1.543zm4.5 1.951c-.147.473-.825.688-1.51.486c-.683-.207-1.13-.76-.99-1.238c.14-.477.823-.7 1.512-.485c.683.206 1.13.756.988 1.237m4.943.361c.017.498-.563.91-1.28.92c-.723.017-1.308-.387-1.315-.877c0-.503.568-.91 1.29-.924c.717-.013 1.306.387 1.306.88zm4.598-.782c.086.485-.413.984-1.126 1.117c-.7.13-1.35-.172-1.44-.653c-.086-.498.422-.997 1.122-1.126c.714-.123 1.354.17 1.444.663zm0 0"/></g>
-          </svg>  </a>
-            
-        
-         <a href="https://chothing.netlify.app/" target="_blank" class="icon-title" >Live Demo</a>
-         <a  href="https://chothing.netlify.app/" target="_blank">
-            <svg class="icon-container"  xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 3.007c-2.946.032-4.59.219-5.682 1.311C3 5.636 3 7.758 3 12c0 4.243 0 6.364 1.318 7.682C5.636 21 7.758 21 12 21c4.243 0 6.364 0 7.682-1.318c1.061-1.061 1.268-2.643 1.308-5.434M21 3h-6.75M21 3v6.75M21 3l-8.25 8.25"/>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>E-commerce Platform</h3>
+          <p>A full-stack e-commerce web application .</p>
+          <button class="btn" data-modal="modal1">Learn More</button>
+        </div>
+        <div class="project-card">
+          <h3>AI Voice Landing Page</h3>
+          <p>This project contain landing page of a AI Voice </p>
+          <button class="btn" data-modal="modal2">Learn More</button>
+        </div>
+        <div class="project-card">
+          <h3>Task Manager</h3>
+          <p>A task management tool for using managing tasks.</p>
+          <button class="btn" data-modal="modal3">Learn More</button>
+        </div>
+      </div>
+    </section>
+
+
+    
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>E-commerce Platform</h2>
+        <img src="./Ecommerce.png" alt="E-commerce" loading="lazy">
+        <p>This Project Contain A Online Shopping Platform That Allows Users To Buy Products for personal or business use.The Website Provides An Interface For Searching,Comparing And Buying Product at Best Price</p>
+        <p>Tech stack : HTMl, Tailwind-CSS, React.js, Express.js, MongoDB</p>
+        <div class="icon-container">
+          <a href="https://github.com/Anik62426/E-Commerce-Backend-Frontend" target="_blank" class="icon-titlenth">Code</a>
+          <a href="https://github.com/Anik62426/E-Commerce-Backend-Frontend" class="svg-container" target="_blank">
+            <svg class="icon-container" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 128 128">
+              <g fill="#181616">
+                <path fill-rule="evenodd"
+                  d="M64 5.103c-33.347 0-60.388 27.035-60.388 60.388c0 26.682 17.303 49.317 41.297 57.303c3.017.56 4.125-1.31 4.125-2.905c0-1.44-.056-6.197-.082-11.243c-16.8 3.653-20.345-7.125-20.345-7.125c-2.747-6.98-6.705-8.836-6.705-8.836c-5.48-3.748.413-3.67.413-3.67c6.063.425 9.257 6.223 9.257 6.223c5.386 9.23 14.127 6.562 17.573 5.02c.542-3.903 2.107-6.568 3.834-8.076c-13.413-1.525-27.514-6.704-27.514-29.843c0-6.593 2.36-11.98 6.223-16.21c-.628-1.52-2.695-7.662.584-15.98c0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033c11.526-7.813 16.59-6.19 16.59-6.19c3.287 8.317 1.22 14.46.593 15.98c3.872 4.23 6.215 9.617 6.215 16.21c0 23.194-14.127 28.3-27.574 29.796c2.167 1.874 4.097 5.55 4.097 11.183c0 8.08-.07 14.583-.07 16.572c0 1.607 1.088 3.49 4.148 2.897c23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"
+                  clip-rule="evenodd" />
+                <path
+                  d="M26.484 91.806c-.133.3-.605.39-1.035.185c-.44-.196-.685-.605-.543-.906c.13-.31.603-.395 1.04-.188c.44.197.69.61.537.91zm2.446 2.729c-.287.267-.85.143-1.232-.28c-.396-.42-.47-.983-.177-1.254c.298-.266.844-.14 1.24.28c.394.426.472.984.17 1.255zm2.382 3.477c-.37.258-.976.017-1.35-.52c-.37-.538-.37-1.183.01-1.44c.373-.258.97-.025 1.35.507c.368.545.368 1.19-.01 1.452zm3.261 3.361c-.33.365-1.036.267-1.552-.23c-.527-.487-.674-1.18-.343-1.544c.336-.366 1.045-.264 1.564.23c.527.486.686 1.18.333 1.543zm4.5 1.951c-.147.473-.825.688-1.51.486c-.683-.207-1.13-.76-.99-1.238c.14-.477.823-.7 1.512-.485c.683.206 1.13.756.988 1.237m4.943.361c.017.498-.563.91-1.28.92c-.723.017-1.308-.387-1.315-.877c0-.503.568-.91 1.29-.924c.717-.013 1.306.387 1.306.88zm4.598-.782c.086.485-.413.984-1.126 1.117c-.7.13-1.35-.172-1.44-.653c-.086-.498.422-.997 1.122-1.126c.714-.123 1.354.17 1.444.663zm0 0" />
+              </g>
+            </svg> </a>
+
+          <a href=" https://chothing.netlify.app/" target="_blank" class="icon-titlenth">Live Demo</a>
+          <a href=" https://chothing.netlify.app/" class="svg-container" target="_blank">
+            <svg class="icon-container" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                d="M10 3.007c-2.946.032-4.59.219-5.682 1.311C3 5.636 3 7.758 3 12c0 4.243 0 6.364 1.318 7.682C5.636 21 7.758 21 12 21c4.243 0 6.364 0 7.682-1.318c1.061-1.061 1.268-2.643 1.308-5.434M21 3h-6.75M21 3v6.75M21 3l-8.25 8.25" />
             </svg>
-         </a>
-          
-        
-          </div>
-      
-        </div>
+          </a>
         </div>
       </div>
-      <div class="main-nthblock">
-        <div class="text-nthchild">
-          <h2 id="project-heading">Software Startup UI</h2>
-          <p class="project-description">This is the User Interface of <hr> </p>
-          <p class="project-description"> New Age Startup Company<hr></p>
-          <p class="project-description">It Mainly sells Software for<hr></p>
-          <p class="project-description"> personal use Also provide <hr></p>
-          <p class="project-description">additional Services<hr></p>
-          <h4 id="use-stack">HTML&emsp; React.js&emsp; Tailwind-CSS</h4>
-          <div class="code-livedemo">
-              <a href="https://github.com/Anik62426/Propellent" target="_blank" class="icon-titlenth" >Code</a>
-                <a  href="https://github.com/Anik62426/Propellent" target="_blank"> 
-                <svg class="icon-container" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 128 128"><g fill="#181616"><path fill-rule="evenodd" d="M64 5.103c-33.347 0-60.388 27.035-60.388 60.388c0 26.682 17.303 49.317 41.297 57.303c3.017.56 4.125-1.31 4.125-2.905c0-1.44-.056-6.197-.082-11.243c-16.8 3.653-20.345-7.125-20.345-7.125c-2.747-6.98-6.705-8.836-6.705-8.836c-5.48-3.748.413-3.67.413-3.67c6.063.425 9.257 6.223 9.257 6.223c5.386 9.23 14.127 6.562 17.573 5.02c.542-3.903 2.107-6.568 3.834-8.076c-13.413-1.525-27.514-6.704-27.514-29.843c0-6.593 2.36-11.98 6.223-16.21c-.628-1.52-2.695-7.662.584-15.98c0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033c11.526-7.813 16.59-6.19 16.59-6.19c3.287 8.317 1.22 14.46.593 15.98c3.872 4.23 6.215 9.617 6.215 16.21c0 23.194-14.127 28.3-27.574 29.796c2.167 1.874 4.097 5.55 4.097 11.183c0 8.08-.07 14.583-.07 16.572c0 1.607 1.088 3.49 4.148 2.897c23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z" clip-rule="evenodd"/><path d="M26.484 91.806c-.133.3-.605.39-1.035.185c-.44-.196-.685-.605-.543-.906c.13-.31.603-.395 1.04-.188c.44.197.69.61.537.91zm2.446 2.729c-.287.267-.85.143-1.232-.28c-.396-.42-.47-.983-.177-1.254c.298-.266.844-.14 1.24.28c.394.426.472.984.17 1.255zm2.382 3.477c-.37.258-.976.017-1.35-.52c-.37-.538-.37-1.183.01-1.44c.373-.258.97-.025 1.35.507c.368.545.368 1.19-.01 1.452zm3.261 3.361c-.33.365-1.036.267-1.552-.23c-.527-.487-.674-1.18-.343-1.544c.336-.366 1.045-.264 1.564.23c.527.486.686 1.18.333 1.543zm4.5 1.951c-.147.473-.825.688-1.51.486c-.683-.207-1.13-.76-.99-1.238c.14-.477.823-.7 1.512-.485c.683.206 1.13.756.988 1.237m4.943.361c.017.498-.563.91-1.28.92c-.723.017-1.308-.387-1.315-.877c0-.503.568-.91 1.29-.924c.717-.013 1.306.387 1.306.88zm4.598-.782c.086.485-.413.984-1.126 1.117c-.7.13-1.35-.172-1.44-.653c-.086-.498.422-.997 1.122-1.126c.714-.123 1.354.17 1.444.663zm0 0"/></g>
-          </svg>  </a>
-            
-         <a href="https://propellent786.onrender.com/" target="_blank" class="icon-titlenth" >Live Demo</a>
-         <a  href="https://propellent786.onrender.com/" target="_blank">
-            <svg class="icon-container"  xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 3.007c-2.946.032-4.59.219-5.682 1.311C3 5.636 3 7.758 3 12c0 4.243 0 6.364 1.318 7.682C5.636 21 7.758 21 12 21c4.243 0 6.364 0 7.682-1.318c1.061-1.061 1.268-2.643 1.308-5.434M21 3h-6.75M21 3v6.75M21 3l-8.25 8.25"/>
+    </div>
+
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Weather App</h2>
+        <img src="./Startup.png" alt="E-commerce" loading="lazy">
+        <p>This is the User Interface of New Age Startup Company It Mainly landing page of a AI voice Generator Web Application
+        </p>
+        <p>Tech stack : HTMl, Tailwind-CSS, React.js, Express.js, MongoDB</p>
+        <div class="icon-container">
+          <a href="https://github.com/Anik62426/Propellent" target="_blank" class="icon-titlenth">Code</a>
+          <a href="https://github.com/Anik62426/Propellent" class="svg-container" target="_blank">
+            <svg class="icon-container" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 128 128">
+              <g fill="#181616">
+                <path fill-rule="evenodd"
+                  d="M64 5.103c-33.347 0-60.388 27.035-60.388 60.388c0 26.682 17.303 49.317 41.297 57.303c3.017.56 4.125-1.31 4.125-2.905c0-1.44-.056-6.197-.082-11.243c-16.8 3.653-20.345-7.125-20.345-7.125c-2.747-6.98-6.705-8.836-6.705-8.836c-5.48-3.748.413-3.67.413-3.67c6.063.425 9.257 6.223 9.257 6.223c5.386 9.23 14.127 6.562 17.573 5.02c.542-3.903 2.107-6.568 3.834-8.076c-13.413-1.525-27.514-6.704-27.514-29.843c0-6.593 2.36-11.98 6.223-16.21c-.628-1.52-2.695-7.662.584-15.98c0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033c11.526-7.813 16.59-6.19 16.59-6.19c3.287 8.317 1.22 14.46.593 15.98c3.872 4.23 6.215 9.617 6.215 16.21c0 23.194-14.127 28.3-27.574 29.796c2.167 1.874 4.097 5.55 4.097 11.183c0 8.08-.07 14.583-.07 16.572c0 1.607 1.088 3.49 4.148 2.897c23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"
+                  clip-rule="evenodd" />
+                <path
+                  d="M26.484 91.806c-.133.3-.605.39-1.035.185c-.44-.196-.685-.605-.543-.906c.13-.31.603-.395 1.04-.188c.44.197.69.61.537.91zm2.446 2.729c-.287.267-.85.143-1.232-.28c-.396-.42-.47-.983-.177-1.254c.298-.266.844-.14 1.24.28c.394.426.472.984.17 1.255zm2.382 3.477c-.37.258-.976.017-1.35-.52c-.37-.538-.37-1.183.01-1.44c.373-.258.97-.025 1.35.507c.368.545.368 1.19-.01 1.452zm3.261 3.361c-.33.365-1.036.267-1.552-.23c-.527-.487-.674-1.18-.343-1.544c.336-.366 1.045-.264 1.564.23c.527.486.686 1.18.333 1.543zm4.5 1.951c-.147.473-.825.688-1.51.486c-.683-.207-1.13-.76-.99-1.238c.14-.477.823-.7 1.512-.485c.683.206 1.13.756.988 1.237m4.943.361c.017.498-.563.91-1.28.92c-.723.017-1.308-.387-1.315-.877c0-.503.568-.91 1.29-.924c.717-.013 1.306.387 1.306.88zm4.598-.782c.086.485-.413.984-1.126 1.117c-.7.13-1.35-.172-1.44-.653c-.086-.498.422-.997 1.122-1.126c.714-.123 1.354.17 1.444.663zm0 0" />
+              </g>
+            </svg> </a>
+
+          <a href="https://propellent786.onrender.com/" target="_blank" class="icon-titlenth">Live Demo</a>
+          <a href="https://propellent786.onrender.com/" class="svg-container" target="_blank">
+            <svg class="icon-container" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                d="M10 3.007c-2.946.032-4.59.219-5.682 1.311C3 5.636 3 7.758 3 12c0 4.243 0 6.364 1.318 7.682C5.636 21 7.758 21 12 21c4.243 0 6.364 0 7.682-1.318c1.061-1.061 1.268-2.643 1.308-5.434M21 3h-6.75M21 3v6.75M21 3l-8.25 8.25" />
             </svg>
-         </a>
-          
-        
-          </div>
-      
+          </a>
         </div>
-        <div class="image-container-nth">
-          <img
-            src="./Startup.png"
-            alt="Kamal"
-            id="image-nthchild"
-          />
-        </div>
-     
       </div>
-     
-      
-    </main>
-  </body>
-  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    </div>
+
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Task Manager</h2>
+        <img src="./Ecommerce.png" alt="E-commerce" loading="lazy">
+        <p>This task manager allows users to create, edit, and delete tasks. Built with HTML, CSS, and JavaScript, it
+          uses local storage to persist data. Features include task prioritization and due dates.</p>
+        <p>Tech stack : HTMl, Tailwind-CSS, React.js, Express.js, MongoDB</p>
+        <div class="icon-container">
+          <a href="https://github.com/Anik62426/Propellent" target="_blank" class="icon-titlenth">Code</a>
+          <a href="https://github.com/Anik62426/Propellent" class="svg-container" target="_blank">
+            <svg class="icon-container" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 128 128">
+              <g fill="#181616">
+                <path fill-rule="evenodd"
+                  d="M64 5.103c-33.347 0-60.388 27.035-60.388 60.388c0 26.682 17.303 49.317 41.297 57.303c3.017.56 4.125-1.31 4.125-2.905c0-1.44-.056-6.197-.082-11.243c-16.8 3.653-20.345-7.125-20.345-7.125c-2.747-6.98-6.705-8.836-6.705-8.836c-5.48-3.748.413-3.67.413-3.67c6.063.425 9.257 6.223 9.257 6.223c5.386 9.23 14.127 6.562 17.573 5.02c.542-3.903 2.107-6.568 3.834-8.076c-13.413-1.525-27.514-6.704-27.514-29.843c0-6.593 2.36-11.98 6.223-16.21c-.628-1.52-2.695-7.662.584-15.98c0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033c11.526-7.813 16.59-6.19 16.59-6.19c3.287 8.317 1.22 14.46.593 15.98c3.872 4.23 6.215 9.617 6.215 16.21c0 23.194-14.127 28.3-27.574 29.796c2.167 1.874 4.097 5.55 4.097 11.183c0 8.08-.07 14.583-.07 16.572c0 1.607 1.088 3.49 4.148 2.897c23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"
+                  clip-rule="evenodd" />
+                <path
+                  d="M26.484 91.806c-.133.3-.605.39-1.035.185c-.44-.196-.685-.605-.543-.906c.13-.31.603-.395 1.04-.188c.44.197.69.61.537.91zm2.446 2.729c-.287.267-.85.143-1.232-.28c-.396-.42-.47-.983-.177-1.254c.298-.266.844-.14 1.24.28c.394.426.472.984.17 1.255zm2.382 3.477c-.37.258-.976.017-1.35-.52c-.37-.538-.37-1.183.01-1.44c.373-.258.97-.025 1.35.507c.368.545.368 1.19-.01 1.452zm3.261 3.361c-.33.365-1.036.267-1.552-.23c-.527-.487-.674-1.18-.343-1.544c.336-.366 1.045-.264 1.564.23c.527.486.686 1.18.333 1.543zm4.5 1.951c-.147.473-.825.688-1.51.486c-.683-.207-1.13-.76-.99-1.238c.14-.477.823-.7 1.512-.485c.683.206 1.13.756.988 1.237m4.943.361c.017.498-.563.91-1.28.92c-.723.017-1.308-.387-1.315-.877c0-.503.568-.91 1.29-.924c.717-.013 1.306.387 1.306.88zm4.598-.782c.086.485-.413.984-1.126 1.117c-.7.13-1.35-.172-1.44-.653c-.086-.498.422-.997 1.122-1.126c.714-.123 1.354.17 1.444.663zm0 0" />
+              </g>
+            </svg> </a>
+
+          <a href="https://propellent786.onrender.com/" target="_blank" class="icon-titlenth">Live Demo</a>
+          <a href="https://propellent786.onrender.com/" class="svg-container" target="_blank">
+            <svg class="icon-container" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                d="M10 3.007c-2.946.032-4.59.219-5.682 1.311C3 5.636 3 7.758 3 12c0 4.243 0 6.364 1.318 7.682C5.636 21 7.758 21 12 21c4.243 0 6.364 0 7.682-1.318c1.061-1.061 1.268-2.643 1.308-5.434M21 3h-6.75M21 3v6.75M21 3l-8.25 8.25" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <section id="Contact">
+      <h2 class="contact-heading">Contact Me</h2>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <span class="error" id="name-error"></span>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <span class="error" id="email-error"></span>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <span class="error" id="message-error"></span>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+
+  <footer>
+    <div class="footer">
+      <p>© 2024 Aniket Kumar. All rights reserved.</p>
+      <div> <a href="https://www.linkedin.com/in/aniket-kumar-4622772a7/" target="_blank">
+          <box-icon class="top-icon" type="logo" name="linkedin-square"></box-icon>
+        </a>
+        <a href="https://github.com/Anik62426" target="_blank">
+          <box-icon class="top-icon" name="github" type="logo"></box-icon>
+        </a>
+      </div>
+    </div>
+
+  </footer>
+</body>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<script src="script.js"></script>
+
 </html>
